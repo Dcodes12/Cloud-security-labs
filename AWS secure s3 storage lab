@@ -1,0 +1,8 @@
+Configured a secure S3 bucket with:
+
+- Blocked public access
+- Enabled versioning
+- Enabled encryption (SSE-S3)
+
+Purpose:
+Demonstrate secure cloud storage configuration and protection against data loss or ransomware scenarios.
