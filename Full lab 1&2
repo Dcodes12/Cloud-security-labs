@@ -1,0 +1,116 @@
+AWS CloudTrail Monitoring & Logging Lab
+
+Overview
+
+This lab demonstrates how to enable activity logging and monitoring inside an AWS environment using AWS CloudTrail.
+
+The purpose of this lab was to understand how security teams track user actions, detect suspicious behaviour, and maintain audit visibility across cloud infrastructure.
+
+Cloud logging is a critical control used in real-world environments for:
+	•	Security monitoring
+	•	Incident response
+	•	Compliance
+	•	Forensic investigations
+
+⸻
+
+Objectives
+	•	Enable account activity logging
+	•	Create a multi-region CloudTrail trail
+	•	Store logs securely in an S3 bucket
+	•	Generate activity events
+	•	Review logged actions in Event History
+
+⸻
+
+Technologies Used
+	•	AWS CloudTrail
+	•	Amazon S3
+	•	AWS Management Console
+
+⸻
+
+Lab Steps
+
+1. Created a CloudTrail Trail
+	•	Opened AWS CloudTrail
+	•	Created a new trail named:
+
+security-monitoring-trail
+	•	Enabled:
+
+Multi-region logging
+
+This ensures activity across all AWS regions is captured.
+
+⸻
+
+2. Log Storage Configuration
+	•	Created a new S3 bucket for log storage
+	•	Ensures audit logs are preserved securely
+
+⸻
+
+3. Generated Test Activity
+To verify logging:
+	•	Accessed IAM
+	•	Viewed S3 services
+	•	Created a test resource
+
+⸻
+
+4. Reviewed Event History
+Observed logged events such as:
+	•	Console login
+	•	Service access
+	•	Resource actions
+
+This confirms monitoring is active.
+
+⸻
+
+Security Concepts Demonstrated
+	•	Audit logging
+	•	Detection controls
+	•	Accountability
+	•	Non-repudiation
+	•	Security visibility
+	•	Monitoring user behaviour
+
+⸻
+
+Why This Matters
+
+In real environments, CloudTrail helps:
+	•	Detect unauthorised access
+	•	Investigate incidents
+	•	Track configuration changes
+	•	Meet compliance requirements
+
+Without logging, organisations have no visibility into what users or attackers are doing.
+
+⸻
+
+Evidence
+
+Screenshots included:
+	•	CloudTrail trail configuration
+	•	Event history logs
+	•	Enabled multi-region monitoring
+
+⸻
+
+Key Takeaway
+
+Enabling logging is one of the first security controls implemented in any cloud environment.
+
+If you cannot see activity, you cannot detect threats.
+
+⸻
+
+
+Skills Demonstrated
+	•	Cloud Security Fundamentals
+	•	Logging & Monitoring
+	•	Security Controls Implementation
+	•	AWS Console Operations
